@@ -1,9 +1,10 @@
 {
+  "$schema": "../schema.json",
   "name": "Mumble Server",
   "available": true,
   "exposable": true,
-  "tipi_version": 1,
-  "version": "v1.5.735",
+  "tipi_version": 12,
+  "version": "1.5.735",
   "port": 64738,
   "id": "mumble-server",
   "categories": ["media"],
@@ -11,6 +12,16 @@
   "short_desc": "Open-source, low-latency, high-quality voice chat.",
   "author": "Mumble Community",
   "source": "https://github.com/mumble-voip/mumble-docker",
+  "form_fields": [
+    {
+      "type": "password",
+      "label": "MUMBLE_CONFIG_SERVER_PASSWORD",
+      "max": 50,
+      "min": 6,
+      "required": true,
+      "env_variable": "MUMBLE_CONFIG_SERVER_PASSWORD"
+    }
+  ],
   "supported_architectures": ["arm64", "amd64"],
   "dynamic_config": true,
   "created_at": 1724134338800,
