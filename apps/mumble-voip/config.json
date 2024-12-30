@@ -1,18 +1,18 @@
 {
   "name": "Mumble Server",
-  "id": "mumble-server",
   "available": true,
-  "short_desc": "Open-source, low-latency, high-quality voice chat.",
-  "author": "Mumble Community",
-  "port": 64738,
-  "categories": ["media"],
-  "description": "Mumble is a free, open-source, low-latency, high-quality voice chat application primarily intended for use while gaming.",
+  "exposable": true,
   "tipi_version": 1,
   "version": "v1.5.735",
+  "port": 64738,
+  "id": "mumble-server",
+  "categories": ["media"],
+  "description": "Mumble is a free, open-source, low-latency, high-quality voice chat application primarily intended for use while gaming.",
+  "short_desc": "Open-source, low-latency, high-quality voice chat.",
+  "author": "Mumble Community",
   "source": "https://github.com/mumble-voip/mumble-docker",
-  "exposable": true,
   "supported_architectures": ["arm64", "amd64"],
+  "dynamic_config": true,
   "created_at": 1724134338800,
-  "updated_at": 1724134338800,
-  "domains": ["mumble.lenhare.dev"]
+  "updated_at": 1724134338800
 }

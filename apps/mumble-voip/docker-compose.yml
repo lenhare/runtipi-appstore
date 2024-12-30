@@ -2,7 +2,7 @@ version: "3.9"
 services:
   mumble-server:
     container_name: mumble-server
-    image: mumblevoip/mumble-server:1.5.735
+    image: mumblevoip/mumble-server:v1.5.735-0
     restart: unless-stopped
     hostname: mumble-server
     environment:
