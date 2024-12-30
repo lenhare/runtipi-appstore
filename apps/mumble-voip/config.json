@@ -5,7 +5,7 @@
   "short_desc": "Open-source, low-latency, high-quality voice chat.",
   "author": "Mumble Community",
   "port": 64738,
-  "categories": ["communication", "voice"],
+  "categories": ["media"],
   "description": "Mumble is a free, open-source, low-latency, high-quality voice chat application primarily intended for use while gaming.",
   "tipi_version": 1,
   "version": "v1.5.735",
